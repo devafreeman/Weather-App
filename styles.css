@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.light-mode {
+    background-color: #f0f0f0;
+    color: #000;
+    color: #fff;
+    background-image: url('https://www.zingerbug.com/Backgrounds/background_images/blue_sky_with_clouds.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+    background-image: url('https://wallpaperaccess.com/full/735181.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: clear;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1900ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
