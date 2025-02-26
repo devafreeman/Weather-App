@@ -1,29 +1,3 @@
-// const apiKey = 'ed06990013661e6838bb748e8c8633ce';
-
-// function getWeather() {
-//     const city = document.getElementById('city').value;
-//     const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`;
-
-//     fetch(url)
-//         .then(response => response.json())
-//         .then(data => {
-//             if (data.error) {
-//                 alert('City not found!');
-//                 return;
-//             }
-
-//             document.getElementById('weather-city').textContent = data.location.name;
-//             document.getElementById('weather-description').textContent = data.current.weather_descriptions[0];
-//             document.getElementById('weather-temp').textContent = `${data.current.temperature} °C`;
-//             document.getElementById('weather-icon').src = data.current.weather_icons[0];
-//         })
-//         .catch(error => alert('Error fetching weather data'));
-// }
-
-// function toggleDarkMode() {
-//     document.body.classList.toggle('dark-mode');
-//     document.body.classList.toggle('light-mode');
-// }
 
 const apiKey = 'ed06990013661e6838bb748e8c8633ce';
 let currentTempCelsius = null;
